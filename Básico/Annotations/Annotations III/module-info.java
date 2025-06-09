@@ -1,0 +1,4 @@
+@MyAnnotation
+module ref {
+	
+}

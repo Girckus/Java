@@ -1,0 +1,2 @@
+@MyAnnotation
+package ref;
