@@ -53,10 +53,10 @@ Alternatively, use an IDE to open the folder and run the class with the `main` m
 
 This folder serves as:
 
-- A structured introduction to Java for beginners
-- A review and refresher on Java basics
-- A modular reference for educators, students, and developers
+- A structured introduction to concurrency and multithreading in Java.
+- A practical reference for understanding synchronization, executors, and locks.
+- A set of modular examples for educators, students, and developers.
 
 ---
 
-> Learn Java by example — structured, up-to-date, and beginner-friendly.
+> Developed as part of personal studies on Java concurrency and multithreading.
