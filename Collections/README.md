@@ -6,7 +6,7 @@ The goal is to serve as a **study guide, quick reference, and long-term knowledg
 
 Each file is **self-contained**, includes an executable `main` method, and demonstrates **specific concepts** of the API.
 
-## 🎯 Project Goals
+## Project Goals
 
 - Provide a **complete guide to the Java Collections Framework**
 - Help developers **choose the right collection**
