@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="
+            http://maven.apache.org/POM/4.0.0
+            https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+	
+  <parent>
+    <groupId>br.com.loja</groupId>
+    <artifactId>loja-virtual</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+    <artifactId>aplicacao</artifactId>
+
+    <name>Aplicação</name>
+
+    <dependencies>
+
+        <dependency>
+
+            <groupId>br.com.loja</groupId>
+            <artifactId>pedidos-api</artifactId>
+            <version>${project.version}</version>
+
+        </dependency>
+        
+        <dependency>
+
+            <groupId>br.com.loja</groupId>
+            <artifactId>usuarios-api</artifactId>
+            <version>${project.version}</version>
+
+        </dependency>
+        
+                <dependency>
+
+            <groupId>br.com.loja</groupId>
+            <artifactId>pedidos-core</artifactId>
+            <version>${project.version}</version>
+
+        </dependency>
+        
+        <dependency>
+
+            <groupId>br.com.loja</groupId>
+            <artifactId>usuarios-core</artifactId>
+            <version>${project.version}</version>
+
+        </dependency>
+        
+        <dependency>
+
+            <groupId>br.com.loja</groupId>
+            <artifactId>pagamentos-api</artifactId>
+            <version>${project.version}</version>
+
+        </dependency>
+        
+        <dependency>
+		    <groupId>br.com.loja</groupId>
+		    <artifactId>pagamentos-pix</artifactId>
+		    <version>${project.version}</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>br.com.loja</groupId>
+		    <artifactId>pagamentos-cartao</artifactId>
+		    <version>${project.version}</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>br.com.loja</groupId>
+		    <artifactId>validation-runtime</artifactId>
+		    <version>${project.version}</version>
+		</dependency>
+    </dependencies>
+
+</project>
